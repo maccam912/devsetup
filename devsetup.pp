@@ -20,9 +20,9 @@ exec {"docker_machine":
 }
 
 exec {"docker_compose":
-    command => "/usr/bin/sudo /usr/bin/pip install -U docker-compose"
+    command => "/usr/bin/sudo /usr/local/bin/pip install -U docker-compose"
 }
 
 exec {"fig":
-    command => "/usr/bin/sudo /usr/bin/pip install -U fig"
+    command => "/usr/bin/sudo /usr/local/bin/pip install -U fig"
 }
