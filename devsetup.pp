@@ -1,4 +1,4 @@
-$devtools = ["tmux", "vim", "curl", "git", "python-pip", "build-essential", "golang", "zsh"]
+$devtools = ["tmux", "vim", "curl", "git", "python-pip", "build-essential", "golang", "zsh", "devscripts"]
 
 package { $devtools: ensure => "latest" }
 
