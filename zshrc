@@ -13,3 +13,4 @@ compinit
 # End of lines added by compinstall
 #
 tmux
+export $DOCKER_HOST=0.0.0.0:2375
